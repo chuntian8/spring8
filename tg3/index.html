@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head lang="en">   
+    <meta charset="UTF-8">  
+    <meta name="keywords" content="棋牌游戏、棋牌、炸金花、龙虎斗、斗地主、牛牛、提现游戏、棋牌赚钱"> 
+    <meta name="Description" content="一款真人棋牌游戏，可休闲娱乐，可盈利赚钱，实时提现，斗地主、牛牛、龙虎斗、捕鱼等等让您日进斗金！">
+    <title>可提现棋牌游戏，休闲盈利两不误！</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capble" content="yes">
+    <link rel="stylesheet" type="text/css" href="../css/qp.css">
+    <script src="../js/zepto.min.js"></script>
+    <style>
+        .next_button{
+            cursor:pointer
+        }
+
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            if (navigator.userAgent.match(/Android/i)
+      || navigator.userAgent.match(/webOS/i)
+      || navigator.userAgent.match(/iPhone/i)
+      || navigator.userAgent.match(/iPad/i)
+      || navigator.userAgent.match(/iPod/i)
+      || navigator.userAgent.match(/BlackBerry/i)
+      || navigator.userAgent.match(/Windows Phone/i)
+      || navigator.userAgent.match(/midp/i)
+      || navigator.userAgent.match(/ucweb/i)) {
+            }
+        })
+        </script>
+</head>
+<body>
+<div id="loading">正在日赚万元的路上狂奔...</div>
+
+<div class="main">
+    <a id="showQrcode">
+    <div class="main-bg">
+        <img src="bg.jpg">
+    </div>
+        </a>
+    <div class="qrcode" ><img id="qrcode" src="../img/qrcode-bg.png"></div>
+    <div class="dbtn">
+       <a href="itms-services://?action=download-manifest&url=https://www.chess139.com/wajin/ipa/mianfest_1.9.26.plist" onclick="clicks()"> <img id="ios-btn" src="../img/ios-btn.png"></a>
+        <a href="http://www.chess139.com/wajin/apk/wajinyulecheng_1.8.18.apk" onclick="clicks()"><img id="an-btn" src="../img/an-btn.png"></a>
+    </div>
+
+    <div class="url-btn"><a href="http://www.wajingame.com/Classify/wajinyulecheng/dios.html?d=wajinyulecheng" target="_blank"><img id="url-btn" src="../img/url-btn.png"></a></div>
+
+	<div class="mask"></div>
+	<img src="../img/qrcode-bg.png" alt="" class="qr" />
+
+</div>
+	
+<script type="text/javascript">
+    $(function () {
+        $("#loading").hide();
+        document.oncontextmenu = new Function("return false;");
+    })
+	function clicks(e){
+		 e = e|| window.event;
+		if($(window).width()>640){
+			$(".mask").css("display","block");
+			$(".qr").css("display","block");
+			e.stopPropagation()||e.preventDefault();
+		}
+		
+	}
+	$(document).click(function(){
+		$(".mask").css("display","none");
+		$(".qr").css("display","none");
+	})
+</script>
+<script>
+    $(function () {
+        var u = navigator.userAgent, app = navigator.appVersion;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
+        var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+        if (isIOS) {
+            $('.main').addClass('next_button');
+            $('#showQrcode').bind('click', function () {
+
+                window.location.href = 'itms-services://?action=download-manifest&url=https://www.chess139.com/wajin/ipa/mianfest_1.9.26.plist';
+            });
+        } else {
+            $('#showQrcode').bind('click', function () {
+                window.location.href = 'http://www.chess139.com/wajin/apk/wajinyulecheng_1.8.18.apk';
+            });
+        }
+    });
+</script>
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?02abb19ee26daa5f21d7401385ab2ea0";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+</body>
+
+
+</html>
