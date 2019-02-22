@@ -1,0 +1,35 @@
+html,body{height:100%;margin:0;padding:0;background:#3a1804;}
+div img{margin:0;padding:0;}
+#loading{width:100%;height:100%;line-height: 300px;color:#ffffff;font-size: 1.5rem;text-align: center}
+.main{overflow: hidden;max-width: 640px;margin:1px auto;position: relative;height:auto;}
+.main .main-bg{text-align: center;width:100%;}
+.main .main-bg img{max-width: 100%;display: block;}
+.main .qrcode{position:absolute;bottom:42.2%;left:17.6%;}
+.main .qrcode img{max-width:85%}
+.main .dbtn{position:absolute;bottom:42.5%;left:46.6%;}
+.main .dbtn img{max-width:63%}
+ .url-btn {position:absolute;bottom:37.5%;max-width: 640px;left:23%;}
+
+.ios-main{overflow: hidden;max-width: 640px;margin:1px auto;position: relative;height:auto;}
+.ios-main .ios-main-bg{text-align: center;width:100%;}
+.ios-main .ios-main-bg img{max-width: 100%;display: block;}
+
+@media screen and (max-width:1024px){.main .qrcode{bottom:40.9%;left:34.5%;}  .url-btn  img{max-width:90%}  .url-btn {bottom:37.5%;left:23.8%;}.main .qrcode img{max-width:85%} .main .qrcode{bottom:42.2%;left:17.6%;}}
+@media screen and (max-width:640px){.main .qrcode{bottom:40.9%;left:34.5%;} .url-btn  img{max-width:90%}  .url-btn {bottom:37.5%;left:23.8%;}.main .qrcode img{max-width:85%} .main .qrcode{bottom:42.2%;left:17.6%;}}
+@media screen and (max-width:600px){.main .qrcode{bottom:40.9%;left:34.5%;} .url-btn  img{max-width:85%}  .url-btn {bottom:37.5%;left:23.8%;}.main .qrcode img{max-width:77%} .main .qrcode{bottom:42.2%;left:17.6%;}}
+@media screen and (max-width:550px){.main .qrcode{bottom:40.7%;left:34.5%;} .url-btn  img{max-width:80%}  .url-btn {bottom:37.5%;left:23.8%;} .main .qrcode img{max-width:70%} .main .qrcode{bottom:42.2%;left:17.6%;}}
+
+@media screen and (max-width:500px){.main .qrcode{bottom:40.7%;left:34.5%;} .url-btn  img{max-width:70%}  .url-btn {bottom:37.5%;left:23.8%;} .main .qrcode img{max-width:66%} .main .qrcode{bottom:42.2%;left:17.6%;}}
+@media screen and (max-width:480px){.main .qrcode{bottom:40.7%;left:34.5%;} .url-btn  img{max-width:70%}  .url-btn {bottom:37.5%;left:23.8%;} .main .qrcode img{max-width:58%} .main .qrcode{bottom:42.2%;left:17.6%;}}
+
+
+@media screen and (max-width:445px){.main .qrcode{bottom:40.7%;left:34.5%;} .url-btn  img{max-width:70%}  .url-btn {bottom:37.5%;left:23.8%;} .main .qrcode img{max-width:52%} .main .qrcode{bottom:42.2%;left:17.6%;}}
+
+@media screen and (max-width:394px){.main .qrcode{bottom:40.8%;left:34.6%;} .url-btn  img{max-width:68%}  .url-btn {bottom:37.5%;left:23.1%;} .main .qrcode img{max-width:50%} .main .qrcode{bottom:42.2%;left:17.6%;}}
+@media screen and (max-width:375px){.main .qrcode{bottom:40.7%;left:34.6%;}  .url-btn  img{max-width:66%}  .url-btn {bottom:37.5%;left:23.5%;} .main .qrcode img{max-width:42%} .main .qrcode{bottom:42.2%;left:17.6%;}}
+@media screen and (max-width:320px){.main .qrcode{bottom:40.7%;left:34.6%;}  .url-btn  img{max-width:66%}  .url-btn {bottom:37.5%;left:23.1%;} .main .qrcode img{max-width:40%} .main .qrcode{bottom:42.2%;left:17.6%;}}
+@media screen and (max-width:310px){.main .qrcode{bottom:40.6%;left:34.6%;}  .url-btn  img{max-width:67%}  .url-btn {bottom:37.5%;left:23.1%;} .main .qrcode img{max-width:40%} .main .qrcode{bottom:42.2%;left:17.6%;}.main .dbtn{position:absolute;bottom:42%;left:47.6%;}}
+@media screen and (max-width:305px){.main .qrcode{bottom:40.6%;left:34.6%;}  .url-btn  img{max-width:67%}  .url-btn {bottom:37.5%;left:23.1%;} .main .qrcode img{max-width:38%} .main .qrcode{bottom:42.2%;left:17.6%;}.main .dbtn{position:absolute;bottom:42%;left:47.6%;}}
+@media screen and (max-width:290px){.main .qrcode{bottom:40.6%;left:34.6%;}  .url-btn  img{max-width:67%}  .url-btn {bottom:37.5%;left:23.1%;} .main .qrcode img{max-width:35%} .main .qrcode{bottom:42.2%;left:17.6%;}.main .dbtn{position:absolute;bottom:42%;left:47.6%;}}
+.mask{width: 100%;height: 100%;position: absolute;left: 0;top: 0;background: rgba(0,0,0,0.5);z-index: 11;display: none;}
+.qr{width: 170px;height: auto;position: absolute;left: 0;top: 0;bottom: 0;right: 0;margin: auto;display: block;z-index: 111;display: none;}
