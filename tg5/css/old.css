@@ -1,0 +1,38 @@
+body{background-color: #40404a;color:#fff;}
+body{max-width: 500px;margin: 0 auto;}
+p{margin:0;}
+a:hover{text-decoration: none;}
+a:focus{text-decoration: none;}
+.green{color:#1dbf19;}
+.red{color:#f00}
+.col-xs-12{padding: 0;}
+.container-fluid{margin-bottom:10px;padding-top: 70px;}
+
+.gobrowser{display: none;}
+.gobrowser{width: 100%;left:0;top:0;z-index: 3;}
+.gobrowser{background-color:#333;color:rgb(190, 255, 51);text-align:center;font-size:0.20rem;line-height:0.25rem;padding:0.4rem;}
+.gobrowser{
+  background-image:url(../img/arrow.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 15% auto;
+}
+
+.show0,.show1{display: none;width: 260px;top:20%;}
+.show0{position: fixed;left: 0}
+.show1{position: fixed;right: 0}
+
+.fixed-top{position: fixed;top:0;left:0;right:0;z-index: 2;}
+.topbar{max-width: 500px;margin: 0 auto;height: 70px;}
+.topbar{background-color: #333; padding:10px 10px;}
+.topbar .logo{float: left; width: 60px;padding-left: 10px;}
+.topbar .info{margin-left: 70px;}
+.topbar .info .name{font-size: 18px;}
+.topbar .info .score{font-size: 12px;padding-top: 5px;}
+.topbar .info .score img{display: inline-block;vertical-align: middle;}
+.topbar .startgame{float: right;margin-right: 10px;height: 50px;padding-top: 10px;}
+.topbar .startgame a{display: inline-block; background-color: #10bc07;padding: 6px 25px;border-radius: 4px;color: #fff;}
+
+.setpios{background-color: #fff;}
+.setpios .hand{position: relative;top: -45px;left: -15px;}
+
